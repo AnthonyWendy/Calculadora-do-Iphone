@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: #494949;
+}
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: ;
+}
